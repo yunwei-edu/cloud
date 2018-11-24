@@ -5,6 +5,11 @@ git config --global user.email "964038167@qq.com"
 #通过终端命令创建ssh key
 ssh-keygen -t rsa -C "964038167@qq.com"
 
+#查看key
+cat .ssh/id_rsa.pub
+
+#将key的内容复制到git官网的账号中
+
 #链接验证:
 ssh -T git@github.com
 
