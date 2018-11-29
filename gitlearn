@@ -14,7 +14,7 @@ cat .ssh/id_rsa.pub
 ssh -T git@github.com
 
 #到放git项目的目录，克隆项目到本地
-git clone git@github.com:yunwei-edu/docker.git
+git clone git@github.com:yunwei-edu/cloud.git
 
 #文件添加到仓库（.代表提交所有文件）
 git add .
